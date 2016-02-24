@@ -1,0 +1,34 @@
+{
+  "name": "machinepack-awss3tools",
+  "version": "0.1.0",
+  "description": "Upload files to S3 buckets and more with Treeline.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "AWS S3 Tools",
+    "machines",
+    "machinepack"
+  ],
+  "author": "Nile Frater",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.2.38",
+    "machine": "^3.0.0",
+    "s3": "^4.4.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilefrater/machinepack-awss3tools.git"
+  },
+  "machinepack": {
+    "friendlyName": "AWS S3 Tools",
+    "machineDir": "machines/",
+    "machines": [
+      "upload-to-s3"
+    ]
+  }
+}
